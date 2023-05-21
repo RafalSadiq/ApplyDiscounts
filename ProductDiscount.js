@@ -95,12 +95,10 @@ function applyDiscounts(cart) {
 
 // Example usage
 const cart = [
-  { id: 1, name: "Product 1", quantity: 5, price: 20 },
-  { id: 2, name: "Product 2", quantity: 12, price: 10 },
-  { id: 3, name: "Product 3", quantity: 8, price: 15 },
-  { id: 4, name: "Product 4", quantity: 25, price: 5 },
-  { id: 5, name: "Product 5", quantity: 20, price: 8 },
-];
+  { id: 1, name: "Product A", quantity: 7, price: 20 },
+  { id: 2, name: "Product B", quantity: 10, price: 40 },
+  { id: 3, name: "Product C", quantity: 7, price: 50 }
+ ];
 
 const discountsApplied = applyDiscounts(cart);
 
